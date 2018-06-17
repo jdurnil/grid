@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: divilocal
-Plugin URI:  divi
-Description: divi
+Plugin Name: Grid
+Plugin URI:  grid.imagiasweb.com
+Description: CSS Grid
 Version:     1.0.0
-Author:      divi
-Author URI:  Jay
+Author:      Jay Durnil
+Author URI:  grid.imagiasweb.com
 License:     GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: etl-divilocal

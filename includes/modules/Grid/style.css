@@ -1,0 +1,62 @@
+.main {
+    display: grid;
+    grid-auto-flow: dense;
+
+}
+
+.main .item{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    grid-column-start: auto;
+    grid-row-start: auto;
+    height: 100%;
+}
+
+.main .etl_grid_item{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    grid-column-start: auto;
+    grid-row-start: auto;
+    height: 100%;
+}
+
+.test{
+    height: 100%;
+}
+.box:before
+{
+    visibility: hidden;
+    content: "\55";
+    font-family: 'ETmodules';
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    top: 10px;
+
+
+
+}
+
+.test:hover .box:before{
+    z-index: 99;
+    visibility: visible;
+}
+.box{
+    width: 10%;
+    height: 10%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.etl_grid_item>div{
+    height: 100%;
+}
+
+.test{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+

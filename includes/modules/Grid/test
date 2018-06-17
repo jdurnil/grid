@@ -1,0 +1,49 @@
+render(){
+map(array, index){
+
+}
+}
+
+let area = x;
+
+connst item = <div key={i}
+
+call render method with (content, area)
+
+getColString(numCols){
+    colString = '';
+    for( let i=1; i<= numCols; i++){
+        colString += 'auto ';
+    }
+}
+
+getRowString(numRows){
+    rowString = '';
+    for(let i=1; i<=numRows; i++){
+        if(i !== numRows){
+            rowString += 'auto ';
+        } else{
+            rowString =+ 'auto';
+        }
+    }
+}
+}
+newArea=0
+if(content){
+  content.map((content => {
+    newArea += content.props.attr.rowSpan * content.props.attr.colSpan;
+  }
+area = area -  newArea;
+for(i=0, i<=area, i++){
+
+
+    if(content[i]){
+    item[i] = <div key={i}>content[i].props.attr.heading</jsx>
+    }
+
+    else{
+        item[i]=<div key={i} className={`item-${i}`}></div>
+    }
+}
+
+return item;

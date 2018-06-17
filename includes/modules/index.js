@@ -1,3 +1,7 @@
-import HelloWorld from './HelloWorld/HelloWorld';
+import Grid from './Grid/Grid';
+import Grid_Item from './Grid_Item/Grid_Item';
 
-export default [HelloWorld];
+export default [
+	Grid,
+	Grid_Item
+];
